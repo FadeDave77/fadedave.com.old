@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/FadeDave77/fadedave.com.git"
   },
-  "author": "",
+  "author": "fadedave",
   "license": "EUPL-1.2",
   "bugs": {
     "url": "https://github.com/FadeDave77/fadedave.com/issues"
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/FadeDave77/fadedave.com#readme",
   "dependencies": {
     "create-react-app": "^4.0.3"
-  }
+  },
+  "keywords": [
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ]
 }
