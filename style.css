@@ -12,31 +12,29 @@ body {
 	text-align: center;
 	background: #556055;
 	color: white;
+	font-size: 20px;
 }
 
-.header h1 {
-	font-size: 40px;
-}
 
 .navbar {
 	overflow: hidden;
 	background: #333333;
 }
 
-.navbar a, .side a {
+.navbar a, .side a, .main a {
 	float: left;
 	display: block;
-	color: white;
+	color: #77bb77;
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
 }
 
-.navbar a.rigth {
+.navbar a.right {
 	float: right;
 }
 
-.navbar a:hover, .side a:hover {
+a:hover {
 	color: #cccccc;
 }
 
@@ -46,20 +44,25 @@ body {
 }
 
 .side {
-	flex: 20%;
-	background: #1d1d1d;
-	padding: 20px;
+	flex: 30%;
+	background: #334433;
+	padding: 30px;
+	max-width: 270px;
 }
 
 .main {
-	flex: 80%;
-	background: #888888;
-	padding: 20px;
+	flex: 70%;
+	background: #555555;
+	padding: 30px;
+	align-content: center;
 }
 
 @media screen and (max-width: 500px) {
 	.row {
 		flex-direction: column;
+	}
+	.side {
+		background: #222222;
 	}
 }
 
@@ -71,7 +74,7 @@ body {
 }
 
 .footer {
-	padding: 10px;
+	padding: 8px;
 	text-align: center;
 	background: #333333;
 	position: static;
@@ -80,6 +83,13 @@ body {
 }
 
 img {
-	width: 100%;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+#pfp {
+	max-width: 33%;
+	width: auto;
 	height: auto;
 }

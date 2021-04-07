@@ -1,41 +1,18 @@
-#notfound {
-	background: #770000;
-	margin-top: 10px;
-
-}
-
-#notfound a {
-	color: white;
-	display: block;
-	padding: 14px 20px;
-	font-size: 20px;
-}
-
-#notfound p {
-	font-size: 20px;
-}
-
-#notfound a:hover {
-	color: #cccccc;
-}
-
-* {
-	box-sizing: border-box;
-}
-
 body {
-	font-family: Inter;
 	background: #222222;
+	font-family: Inter;
 	color: white;
 }
 
 .header {
-	padding: 40px;
 	text-align: center;
-	background: #556055;
-	color: white;
+	background: #662222;
+	padding: 5% 5%;
 }
 
-.header h1 {
-	font-size: 40px;
+a {
+	color: white;
+	display: block;
+	padding: 14px 20px;
+	font-size: 20px;
 }
