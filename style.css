@@ -79,27 +79,6 @@ body {
 	color: #999999;
 }
 
-#notfound {
-	background: #770000;
-	margin-top: 10px;
-
-}
-
-#notfound a {
-	color: white;
-	display: block;
-	padding: 14px 20px;
-	font-size: 20px;
-}
-
-#notfound p {
-	font-size: 20px;
-}
-
-#notfound a:hover {
-	color: #cccccc;
-}
-
 img {
 	width: 100%;
 	height: auto;
