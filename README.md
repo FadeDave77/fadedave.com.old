@@ -1,1 +1,1 @@
-This is the repository for fadedave's http website source code.
+This is the repository for fadedave's http website source code, excluding private directories.
